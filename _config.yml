@@ -1,8 +1,10 @@
 title: SCRIBE
-description: Solutions, Conseils et Ressources pour l Informatique Bureautique
+description: Solutions, Conseils et Ressources pour l'Informatique BureautiquE
 theme: just-the-docs
 
 url: https://scribe-doc.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+#aux_links:
+#  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  
+color_scheme: dark

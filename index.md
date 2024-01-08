@@ -3,6 +3,8 @@ title: Accueil
 layout: home
 ---
 
+# Solutions, Conseils et Ressources pour l'Informatique Bureautique - SCRIBE
+
 (contenu ci-dessous à supprimer)
 
 
