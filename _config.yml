@@ -20,6 +20,6 @@ last_edit_time_format: "%d/%m/%Y"
 
 exclude:
   - .obsidian
-
+  - drafts
 
 
