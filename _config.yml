@@ -8,6 +8,7 @@ url: https://scribe-doc.github.io
 #  Template Repository: https://github.com/just-the-docs/just-the-docs-template
   
 #color_scheme: dark-custom
+color_scheme: light-custom
 
 favicon_ico: "/favicon.ico"
 logo: "/assets/images/logo.png"
