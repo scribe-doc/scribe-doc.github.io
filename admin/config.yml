@@ -1,6 +1,6 @@
 backend:
-  name: 'git-gateway'
-  branch: main
+  name: github
+  repo: scribe-doc/scribe-doc.github.io
   #repo: scribe-doc/scribe-doc.github.io
   #branch: 'main'
 media_folder: 'assets/images'
