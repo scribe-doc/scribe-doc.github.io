@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fichiers PDF
+title: Gestion des fichiers
 has_children: true
-nav_order: 5
+nav_order: 15
 ---

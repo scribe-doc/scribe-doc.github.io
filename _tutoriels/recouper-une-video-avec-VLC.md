@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Recouper une vidéo avec VLC
-parent: Fichiers vidéo
-nav_order: 1
+title: Vidéo - Recouper une vidéo avec VLC
 last_modified_date: 2024-01-12
 ---
 # Recouper une vidéo avec VLC

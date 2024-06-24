@@ -1,8 +1,6 @@
 ---
 layout: default
-title: "Problème : les fichiers PDF s'ouvrent dans Chrome"
-parent: Fichiers PDF
-nav_order: 1
+title: "PDF - Problème : les fichiers PDF s'ouvrent dans Chrome"
 last_modified_date: 2024-01-12
 ---
 
@@ -19,6 +17,7 @@ Comment résoudre le problème : les fichiers PDF s'ouvrent dans Chrome, au lieu
 2.	Sélectionner « Ouvrir avec », puis « Choisir une autre application ».
     
     La liste ci-dessous apparait :  
+      
     ![](IMG_Pb-PDF-Chrome-2.png){: width="400" }
 3.	Sélectionner « Adobe Acrobat » (ou un autre logiciel de lecture de PDF) dans la liste ;  
 
@@ -33,12 +32,12 @@ Ceci empêchera Chrome de se remettre en application par défaut pour ouvrir les
 
 2. Cliquer sur les 3 petits points en haut à droite pour accéder au menu principal du logiciel ;  
     
-    La liste ci-dessous apparait :
+    La liste ci-dessous apparait :  
     ![](IMG_Pb-PDF-Chrome-3.png)
 1. Cliquer sur Paramètres ;  
     
     La fenêtre ci-dessous apparait :
-    ![](IMG_Pb-PDF_Chrome-4.png)
+    ![](IMG_Pb-PDF-Chrome-4.png)
 4. Cliquer sur « Confidentialité et sécurité » à gauche ;  
 
 5. Cliquer sur « Paramètres du site » au centre ;
