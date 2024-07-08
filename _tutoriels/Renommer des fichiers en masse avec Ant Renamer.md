@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fichiers - Renommer des fichiers en masse avec Ant Renamer
+title: "[Fichiers] Renommer des fichiers en masse avec Ant Renamer"
 last_modified_date: 2024-03-27
 ---
 # Renommer des fichiers en masse avec le logiciel Ant Renamer
@@ -50,8 +50,8 @@ Ant Renamer peut effectuer les opérations suivantes sur les noms de fichiers d'
 
 3. Afficher l'aperçu du résultat pour tous les fichiers :
 	- Cliquer sur "Fichiers" en haut à gauche pour basculer vers cet onglet
-	- Cliquer en suite sur l'icone en forme de loupe ("Actualiser l'aperçu")  
-	  ![](IMG_Renommer%20fichiers%20avec%20Ant%20Renamer%203.png)  
+	- Cliquer en suite sur l'icone en forme de loupe ![](IMG_Renommer fichiers avec Ant Renamer 3.png){: .mini } ("Actualiser l'aperçu")    
+	    
 	  L'aperçu du résultat pour tous les fichiers est alors affiché : 
 	   ![](IMG_Renommer%20fichiers%20avec%20Ant%20Renamer%204.png)
 

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Vidéo - Recouper une vidéo avec VLC
+title: "[Vidéo] Recouper une vidéo avec VLC"
 last_modified_date: 2024-01-12
 ---
-# Recouper une vidéo avec VLC
+# Recouper une vidéo avec VLC (sans la réencoder)
 ## Introduction
 
 Il est possible d'utiliser VLC pour recouper une vidéo (avec le son), de manière à enlever le début et/ou la fin.  
