@@ -27,16 +27,21 @@ Voir le tutoriel [Renommer des fichiers en masse avec le logiciel Ant Renamer](/
 
 ## Documents PDF
   
-### Comment puis-je réarranger les pages de fichiers PDF ? (ajouter/supprimer des pages, changer l'ordre, effectuer une rotation sur certaines pages..)
-Les logiciels suivants permettent de modifier des fichiers PDF au niveau des **pages** (ajout, suppression, changement de l'ordre des pages, rotation, ).
+### Comment puis-je réarranger les pages de fichiers PDF ?
+Les logiciels suivants permettent de modifier des fichiers PDF au niveau des **pages** (ajout, suppression, changement de l'ordre des pages, rotation des pages, ..). Ils ne permettent pas de modifier le **contenu** des pages.
 - PDF Arranger : logiciel libre assez intuitif et en français.  
   [Site officiel de PDF Arranger](https://github.com/pdfarranger/pdfarranger){:target="_blank"} | [Télécharger](https://github.com/pdfarranger/pdfarranger/releases){:target="_blank"} | [Liste des fonctionnalités](https://github.com/pdfarranger/pdfarranger/wiki/User-Manual){:target="_blank"}
 - PDF Split and Merge Basic (PDFSam Basic)  
   [Site officiel de PDFsam](https://pdfsam.org/fr/){:target="_blank"} | [Télécharger](https://pdfsam.org/fr/pdfsam-basic/){:target="_blank"} 
 
 ### Comment puis-je modifier le contenu d'un fichier PDF ? (contenu des pages)
-(à venir)
+Le format PDF n'est pas fait pour être modifié (tout au plus, les formulaires PDF permettent de remplir certains champs). Idéalement, il faut partir du document source (fichier Writer/Word/Calc/..).  
+Cependant, des logiciels permettent d'effectuer des modifications dans une certaine mesure, mais il y a souvent une perte de mise en forme du document original.  
+Les logiciels Word, OnlyOffice / Escola, LibreOffice Draw peuvent être utilisés pour cela.  
+*(plus de détails à venir)*  
 
+### Les fichiers PDF s'ouvrent dans Google Chrome au lieu de mon lecteur PDF habituel (Adobe Acrobat Reader, ..), comment puis-je corriger cela ?
+Voir le tutoriel [Problème : les fichiers PDF s’ouvrent avec Google Chrome](/tutoriels/problème-fichiers-pdf-ouvrent-dans-Chrome.html).  
 ## Vidéo
   
 ### Comment supprimer le début et/ou la fin d'une vidéo ?
