@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "[Fichiers] Renommer des fichiers en masse avec Ant Renamer"
-last_modified_date: 2024-03-27
+last_modified_date: 2024-07-08
 ---
 # Renommer des fichiers en masse avec le logiciel Ant Renamer
 ## Introduction
@@ -9,7 +9,7 @@ last_modified_date: 2024-03-27
 Le logiciel libre Ant Renamer peut être utilisé pour renommer rapidement de nombreux fichiers.
 
 Il peut être téléchargé sur le [site officiel d'Ant Renamer](https://www.antp.be/software/renamer/fr){:target="_blank"}.  
-Deux téléchargement sont disponibles : une version avec installeur, ou une version "portable" (qui ne nécessite pas d'installation, ni les droits administrateurs).
+Deux téléchargement sont disponibles : une version avec installeur, ou une version "portable" (qui ne nécessite ni installation, ni les droits administrateurs).
 
 Ant Renamer peut effectuer les opérations suivantes sur les noms de fichiers d'un ensemble de fichiers : 
 - Changer l'extension
@@ -29,8 +29,8 @@ Ant Renamer peut effectuer les opérations suivantes sur les noms de fichiers d'
 
 **L'aide du logiciel**, présentant plus en détail les différentes opérations et leurs options notamment, **est accessible par la touche F1**.
 
-## Exemples
-### Exemple 1 : Remplacement d'une chaîne de caractère
+
+## Exemple : Remplacement d'une chaîne de caractère
 
 1. Ajouter les fichiers à renommer :
 	- Ouvrir le logiciel.  
@@ -58,5 +58,3 @@ Ant Renamer peut effectuer les opérations suivantes sur les noms de fichiers d'
 4. Lancer le renommage :
 	- Une fois que le résultat est satisfaisant, cliquer sur sur le bouton "Démarrer" en haut, pour lancer le renommage.
 
-### Exemple 2 : 
-## Ressources complémentaires

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "[Vidéo] Recouper une vidéo avec VLC"
-last_modified_date: 2024-01-12
+last_modified_date: 2024-07-08
 ---
 # Recouper une vidéo avec VLC (sans la réencoder)
 ## Introduction
@@ -10,10 +10,11 @@ Il est possible d'utiliser VLC pour recouper une vidéo (avec le son), de maniè
 Exemple : enlever les premières et dernières minutes d'un enregistrement d'une visioconférence.  
 
 Avantages de la méthode ci-dessous :
-- elle ne nécessite pas de réencoder la vidéo (opération qui peut être longue et entraîner une perte de qualité);
-- il n'y besoin que du logiciel VLC (qui est en général déjà installé sur l'ordinateur).  
+- Elle ne nécessite pas de réencoder la vidéo (opération qui peut être longue et entraîner une perte de qualité);
+- Il n'y besoin que du logiciel VLC (qui est en général déjà installé sur l'ordinateur).  
 
-Cette méthode utilise la fonction "Convertir" du logiciel VLC.
+Cette méthode utilise la fonction "Convertir" du logiciel VLC.    
+Si besoin, VLC peut être téléchargé sur le [site officiel de VLC](https://www.videolan.org/vlc/index.fr.html){:target="_blank"}.
 
 ## Prérequis
 - Noter l’heure de début et l’heure de fin de la partie de la vidéo à conserver.  
@@ -29,7 +30,7 @@ Cette méthode utilise la fonction "Convertir" du logiciel VLC.
     Une nouvelle fenêtre apparait :
     ![](IMG_VLC-recouper-video-1.png)
     
-3. Dans la rubrique « Sélection de fichier », ajouter la vidéo à recouper avec le bouton « Ajouter »  
+3. Dans la section *Sélection de fichier*, ajouter la vidéo à recouper avec le bouton « Ajouter »  
 4. Cocher la case « Afficher plus d’options »  
 5. Indiquer la partie de la vidéo à conserver, en utilisant les champs « heure de début » et « heure de fin ». Il s’agit des heures notées précédemment (voir « Prérequis »)
 6. Cliquer sur « Convertir / Enregistrer »
@@ -48,5 +49,5 @@ Cette méthode utilise la fonction "Convertir" du logiciel VLC.
     
     La fenêtre précédente apparait alors à nouveau :
     ![](IMG_VLC-recouper-video-2.png)
-11. Dans la section « Destination », cliquer sur « Parcourir », et indiquer la localisation et le nom du fichier de sortie.  
+11. Dans la section *Destination*, cliquer sur « Parcourir », et indiquer la localisation et le nom du fichier de sortie.  
 12. Enfin, cliquer sur « Démarrer » pour lancer la création du nouveau fichier (vidéo recoupée).  

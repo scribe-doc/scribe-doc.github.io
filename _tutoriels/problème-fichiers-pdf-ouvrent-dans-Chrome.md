@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "[PDF] Problème : les fichiers PDF s'ouvrent dans Chrome"
-last_modified_date: 2024-01-12
+last_modified_date: 2024-07-08
 ---
 
 # Problème : les fichiers PDF s'ouvrent avec Google Chrome  
