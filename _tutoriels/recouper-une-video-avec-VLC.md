@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "[Vidéo] Recouper une vidéo avec VLC"
-last_modified_date: 2024-07-08
+last_modified_date: 2024-07-09
 ---
 # Recouper une vidéo avec VLC (sans la réencoder)
 ## Introduction
@@ -11,10 +11,9 @@ Exemple : enlever les premières et dernières minutes d'un enregistrement d'une
 
 Avantages de la méthode ci-dessous :
 - Elle ne nécessite pas de réencoder la vidéo (opération qui peut être longue et entraîner une perte de qualité);
-- Il n'y besoin que du logiciel VLC (qui est en général déjà installé sur l'ordinateur).  
+- Il n'y besoin que du [logiciel VLC](https://www.videolan.org/vlc/index.fr.html){:target="_blank"} (qui est en général déjà installé sur l'ordinateur).  
 
-Cette méthode utilise la fonction "Convertir" du logiciel VLC.    
-Si besoin, VLC peut être téléchargé sur le [site officiel de VLC](https://www.videolan.org/vlc/index.fr.html){:target="_blank"}.
+Cette méthode utilise la fonction "Convertir" du logiciel VLC.
 
 ## Prérequis
 - Noter l’heure de début et l’heure de fin de la partie de la vidéo à conserver.  
