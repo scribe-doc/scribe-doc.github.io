@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Foire aux questions
-last_modified_date: 2024-06-25
+last_modified_date: 2024-07-09
 ---
 # Foire aux questions
 {: .no_toc style="margin-bottom:25px;"}
