@@ -1,0 +1,69 @@
+Sub DecoupePublipostage()
+ColonneRNE = 1
+
+' Déclaration des variables
+Dim iR As Integer
+Dim i As Integer
+Dim oDoc As Document
+Dim DocName As String
+Dim ParentDocName As String
+Dim ExportDirectory As String
+Dim oDS As MailMergeDataSource
+Dim RNE As String
+Dim RNEcount As Integer
+
+' Affectation des objets et variables
+Set oDoc = ActiveDocument
+Set oDS = oDoc.MailMerge.DataSource
+ParentDocName = ActiveDocument.Name
+ExportDirectory = ActiveDocument.Path & Application.PathSeparator & "Publipostage" & Application.PathSeparator
+RNE = ""
+
+If Not Dir(ExportDirectory, vbDirectory) = vbNullString Then
+    FileFolderExists = True
+Else
+    MkDir ExportDirectory
+End If
+
+iR = oDoc.MailMerge.DataSource.RecordCount
+Debug.Print iR
+For i = 1 To iR
+    With oDoc.MailMerge
+        'Définition du premier et dernier enregistrement
+        .DataSource.FirstRecord = i
+        
+        .DataSource.LastRecord = i
+        ' Envoi des données dans un nouveau document
+        .Destination = wdSendToNewDocument
+        ' Exécution du publipostage
+        .Execute
+        ' Actualisation de l'enregistrement pour la sauvegarde
+        .DataSource.ActiveRecord = i
+        'Utilisation du premier champ de fusion et du nom du fichier parent pour obtenir le nom
+        If StrComp(RNE, .DataSource.DataFields(ColonneRNE).Value) = 0 Then
+            RNEcount = RNEcount + 1
+        Else
+            RNE = .DataSource.DataFields(ColonneRNE).Value
+            RNEcount = 1
+        End If
+
+        If RNEcount = 1 Then
+            DocName = .DataSource.DataFields(ColonneRNE).Value & "-" & ParentDocName
+        Else
+            DocName = .DataSource.DataFields(ColonneRNE).Value & "-" & ParentDocName & " (" & RNEcount & ")"
+        End If
+        
+
+        DocName = Replace(DocName, ".docx", "")
+        DocName = Replace(DocName, ".doc", "")
+        'DocName = DocName & "-" & .DataSource.DataFields(3).Value
+        Debug.Print DocName; i
+    End With
+    ' Sauvegarde du document publiposté
+    With ActiveDocument
+        .SaveAs ExportDirectory & DocName & ".docx"
+        .ExportAsFixedFormat outputFileName:=ExportDirectory & DocName & ".pdf", exportFormat:=wdExportFormatPDF
+        .Close
+    End With
+Next i
+End Sub

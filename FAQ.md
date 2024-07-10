@@ -35,13 +35,22 @@ Les logiciels suivants permettent de modifier des fichiers PDF au niveau des **p
   [Site officiel de PDFsam](https://pdfsam.org/fr/){:target="_blank"} | [Télécharger](https://pdfsam.org/fr/pdfsam-basic/){:target="_blank"} 
 
 ### Comment puis-je modifier le contenu d'un fichier PDF ? (contenu des pages)
-Le format PDF n'est pas fait pour être modifié (tout au plus, les formulaires PDF permettent de remplir certains champs). Idéalement, il faut partir du document source (fichier Writer/Word/Calc/..).  
-Cependant, des logiciels permettent d'effectuer des modifications dans une certaine mesure, mais il y a souvent une perte de mise en forme du document original.  
-Les logiciels Word, OnlyOffice / Escola, LibreOffice Draw peuvent être utilisés pour cela.  
-*(plus de détails à venir)*  
-
+Le format PDF n'est pas fait pour être modifié (tout au plus, les formulaires PDF permettent de remplir certains champs). Idéalement, il faut partir du document source (fichier Writer/Word/Calc/Excel/..).  
+Cependant, des logiciels permettent d'effectuer des modifications dans une certaine mesure. Mais il y a souvent une perte de mise en forme partielle du document original.  
+Les logiciels suivant peuvent être utilisés : 
+- Word
+- OnlyOffice / Escola
+- LibreOffice Draw
+- Gimp (converti chaque page sélectionnée en une image, et permet de la modifier)
+  
 ### Les fichiers PDF s'ouvrent dans Google Chrome au lieu de mon lecteur PDF habituel (Adobe Acrobat Reader, ..), comment puis-je corriger cela ?
 Voir le tutoriel [Problème : les fichiers PDF s’ouvrent avec Google Chrome](/tutoriels/problème-fichiers-pdf-ouvrent-dans-Chrome.html).  
+
+## Traitement de texte (Word, Writer)
+
+### Comment, lors d'un publipostage sous Word, obtenir un fichier par destinataire, au lieu d'un seul fichier contenant tous les courriers ?
+Voir le tutoriel [Comment obtenir un document par destinataire lors d’un publipostage sous Word](/tutoriels/Publipostage macro Word - un fichier par destinataire.html)   
+
 ## Vidéo
   
 ### Comment supprimer le début et/ou la fin d'une vidéo ?
