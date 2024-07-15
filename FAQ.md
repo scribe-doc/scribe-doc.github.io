@@ -24,6 +24,9 @@ last_modified_date: 2024-07-09
 Des logiciels permettent de renommer rapidement de nombreux fichiers.  
 Voir le tutoriel [Renommer des fichiers en masse avec le logiciel Ant Renamer](/tutoriels/Renommer des fichiers en masse avec Ant Renamer.html)
 
+### Comment identifier les fichiers en double (et éventuellement les supprimer) ?
+Le logiciel libre dupeGuru permet d'identifier les doublons. Il est possible de choisir le français dans les paramètres.  
+[Site officiel de dupeGuru](https://dupeguru.voltaicideas.net/){:target="_blank"}   
 
 ## Documents PDF
   
@@ -40,7 +43,7 @@ Cependant, des logiciels permettent d'effectuer des modifications dans une certa
 Les logiciels suivant peuvent être utilisés :
 - Microsoft Word : Ouvrir Word, puis menu "Fichier" > "Ouvrir", et sélectionner le fichier PDF à ouvrir.
 - OnlyOffice / Escola : Importer le document PDF, l'ouvrir, puis :
-	- "Fichier" > "Télécharger comme" > "DOCX" (pour télécharger un fichier docx et l'éditer dans un traitement de texte en local); *OU*
+	- "Fichier" > "Télécharger comme" > "DOCX" (pour télécharger un fichier docx et l'éditer dans un traitement de texte en local); *ou*
 	- "Fichier" > "Enregistrer une copie comme" > "DOCX" (pour éditer le document dans OnlyOffice) 
 - LibreOffice Draw : Ouvrir Draw, puis menu "Fichier" > "Ouvrir...", et sélectionner le fichier PDF à ouvrir. Enregistrement possible au format ODG (format natif de Draw) et export en PDF.
 - Gimp : Ouvrir Gimp, puis "Fichier" > "Ouvrir...", et sélectionner le fichier PDF à ouvrir. Chaque page sélectionnée est convertie en une image indépendante, qui peut ensuite être modifiée.

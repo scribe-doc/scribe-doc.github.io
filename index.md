@@ -15,4 +15,4 @@ Vous pouvez commencer par consulter [la FAQ](/FAQ.html).
   
 &nbsp;    
 <u>Dernières modifications :</u>  
-- 09/07/2024 : FAQ : Ajout de la question "Comment puis-je modifier le contenu d’un fichier PDF ? (contenu des pages)"
+- 15/07/2024 : Ajout du tutoriel "Télécharger des vidéos en ligne avec Vividl"

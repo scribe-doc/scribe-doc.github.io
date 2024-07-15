@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[Bureautique] OnlyOffice / Escola : Créer un lien public"
+title: "[Bureautique] OnlyOffice / Escola: Créer un lien public"
 last_modified_date: 2024-07-15
 ---
 # OnlyOffice / Escola : Créer un lien public
