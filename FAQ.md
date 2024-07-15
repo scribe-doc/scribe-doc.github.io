@@ -35,13 +35,15 @@ Les logiciels suivants permettent de modifier des fichiers PDF au niveau des **p
   [Site officiel de PDFsam](https://pdfsam.org/fr/){:target="_blank"} | [Télécharger](https://pdfsam.org/fr/pdfsam-basic/){:target="_blank"} 
 
 ### Comment puis-je modifier le contenu d'un fichier PDF ? (contenu des pages)
-Le format PDF n'est pas fait pour être modifié (tout au plus, les formulaires PDF permettent de remplir certains champs). Idéalement, il faut partir du document source (fichier Writer/Word/Calc/Excel/..).  
-Cependant, des logiciels permettent d'effectuer des modifications dans une certaine mesure. Mais il y a souvent une perte de mise en forme partielle du document original.  
-Les logiciels suivant peuvent être utilisés : 
-- Word
-- OnlyOffice / Escola
-- LibreOffice Draw
-- Gimp (converti chaque page sélectionnée en une image, et permet de la modifier)
+**Le format PDF n'est pas fait pour être modifié** (tout au plus, les formulaires PDF permettent de remplir certains champs). Idéalement, il faut partir du document source (fichier Writer/Word/Calc/Excel/..).  
+Cependant, des logiciels permettent d'effectuer des modifications dans une certaine mesure. Mais il y a souvent une **perte de mise en forme** partielle du document original.  
+Les logiciels suivant peuvent être utilisés :
+- Microsoft Word : Ouvrir Word, puis menu "Fichier" > "Ouvrir", et sélectionner le fichier PDF à ouvrir.
+- OnlyOffice / Escola : Importer le document PDF, l'ouvrir, puis :
+	- "Fichier" > "Télécharger comme" > "DOCX" (pour télécharger un fichier docx et l'éditer dans un traitement de texte en local); *OU*
+	- "Fichier" > "Enregistrer une copie comme" > "DOCX" (pour éditer le document dans OnlyOffice) 
+- LibreOffice Draw : Ouvrir Draw, puis menu "Fichier" > "Ouvrir...", et sélectionner le fichier PDF à ouvrir. Enregistrement possible au format ODG (format natif de Draw) et export en PDF.
+- Gimp : Ouvrir Gimp, puis "Fichier" > "Ouvrir...", et sélectionner le fichier PDF à ouvrir. Chaque page sélectionnée est convertie en une image indépendante, qui peut ensuite être modifiée.
   
 ### Les fichiers PDF s'ouvrent dans Google Chrome au lieu de mon lecteur PDF habituel (Adobe Acrobat Reader, ..), comment puis-je corriger cela ?
 Voir le tutoriel [Problème : les fichiers PDF s’ouvrent avec Google Chrome](/tutoriels/problème-fichiers-pdf-ouvrent-dans-Chrome.html).  

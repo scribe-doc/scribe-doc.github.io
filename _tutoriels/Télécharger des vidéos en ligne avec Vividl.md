@@ -6,7 +6,7 @@ last_modified_date: 2024-07-15
 
 # Télécharger des vidéos en ligne avec Vividl
 &nbsp;  
-Le logiciel Vividl permet de télécharger des vidéos présentes sur des sites comme Youtube ou Dailymotion.
+Le logiciel libre Vividl permet de télécharger des vidéos présentes sur des sites comme Youtube ou Dailymotion.
 
 ## Installation
 
