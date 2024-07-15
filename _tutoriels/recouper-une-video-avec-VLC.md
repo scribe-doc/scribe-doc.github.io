@@ -11,7 +11,7 @@ Exemple : enlever les premières et dernières minutes d'un enregistrement d'une
 
 Avantages de la méthode ci-dessous :
 - Elle ne nécessite pas de réencoder la vidéo (opération qui peut être longue et entraîner une perte de qualité);
-- Il n'y besoin que du [logiciel VLC](https://www.videolan.org/vlc/index.fr.html){:target="_blank"} (qui est en général déjà installé sur l'ordinateur).  
+- Il n'y a besoin que du [logiciel VLC](https://www.videolan.org/vlc/index.fr.html){:target="_blank"} (qui est en général déjà installé sur l'ordinateur).  
 
 Cette méthode utilise la fonction "Convertir" du logiciel VLC.
 

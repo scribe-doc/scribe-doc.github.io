@@ -46,9 +46,12 @@ Les logiciels suivant peuvent être utilisés :
 ### Les fichiers PDF s'ouvrent dans Google Chrome au lieu de mon lecteur PDF habituel (Adobe Acrobat Reader, ..), comment puis-je corriger cela ?
 Voir le tutoriel [Problème : les fichiers PDF s’ouvrent avec Google Chrome](/tutoriels/problème-fichiers-pdf-ouvrent-dans-Chrome.html).  
 
-## Traitement de texte (Word, Writer)
+## Suites bureautiques
 
-### Comment, lors d'un publipostage sous Word, obtenir un fichier par destinataire, au lieu d'un seul fichier contenant tous les courriers ?
+### OnlyOffice / Escola : Comment créer un lien public ?
+Voir le tutoriel [OnlyOffice Escola - Créer un lien public](/tutoriels/OnlyOffice Escola - Créer un lien public.html)  
+
+### Microsoft Word : Comment, lors d'un publipostage, obtenir un fichier par destinataire, au lieu d'un seul fichier contenant tous les courriers ?
 Voir le tutoriel [Comment obtenir un document par destinataire lors d’un publipostage sous Word](/tutoriels/Publipostage macro Word - un fichier par destinataire.html)   
 
 ## Vidéo
