@@ -1,7 +1,7 @@
 ---
 title: Accueil
 layout: home
-last_modified_date: 2024-07-09
+last_modified_date: 2024-07-15
 nav_order: 1
 permalink: /
 ---
