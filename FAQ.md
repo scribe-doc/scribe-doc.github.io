@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Foire aux questions
-last_modified_date: 2024-07-15
+last_modified_date: 2025-03-04
 ---
 # Foire aux questions
 {: .no_toc style="margin-bottom:25px;"}
@@ -37,6 +37,10 @@ Les logiciels suivants permettent de modifier des fichiers PDF au niveau des **p
 - PDF Split and Merge Basic (PDFSam Basic)  
   [Site officiel de PDFsam](https://pdfsam.org/fr/){:target="_blank"} | [Télécharger](https://pdfsam.org/fr/pdfsam-basic/){:target="_blank"} 
 
+### Comment puis-je annoter ou compléter un document PDF ?
+Le logiciel Adobe Acrobat Reader, y compris dans sa version gratuite, propose plusieurs fonctionnalités pour annoter un document PDF : ajouter du texte, surligner/souligner/barrer du texte, ajouter une coche/croix, ajouter quelques formes de base, tracer à main levée, ajouter une signature..  
+Cela est souvent suffisant pour simplement remplir un document PDF, sans devoir l'imprimer puis le scanner.  
+![](IMG_FAQ_PDF_1_Adobe_annotation.jpg)
 ### Comment puis-je modifier le contenu d'un fichier PDF ? (contenu des pages)
 **Le format PDF n'est pas fait pour être modifié** (tout au plus, les formulaires PDF permettent de remplir certains champs). Idéalement, il faut partir du document source (fichier Writer/Word/Calc/Excel/..).  
 Cependant, des logiciels permettent d'effectuer des modifications dans une certaine mesure. Mais il y a souvent une **perte de mise en forme** partielle du document original.  

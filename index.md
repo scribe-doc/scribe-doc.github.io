@@ -1,7 +1,7 @@
 ---
 title: Accueil
 layout: home
-last_modified_date: 2024-07-15
+last_modified_date: 2025-02-13
 nav_order: 1
 permalink: /
 ---
@@ -11,8 +11,8 @@ permalink: /
  
 
 Bienvenue !  
-Vous pouvez commencer par consulter [la FAQ](/FAQ.html).  
+Vous pouvez commencer par [consulter la FAQ](/FAQ.html).  
   
 &nbsp;    
-<u>Dernières modifications :</u>  
-- 15/07/2024 : Ajout du tutoriel "Télécharger des vidéos en ligne avec Vividl"
+
+&nbsp;  

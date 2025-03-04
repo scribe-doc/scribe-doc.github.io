@@ -1,0 +1,84 @@
+Sub DecoupePublipostage()
+' Numéro de colonne de l'UAI (utilisé comme préfixe des fichiers produits) dans le tableau
+ColonneUAI = 1
+
+' --- Déclaration des variables ---
+' iR : nombre de lignes (Records) dans le tableau
+Dim iR As Integer
+' i : numéro de la ligne (courrier) en cours
+Dim i As Integer
+Dim oDoc As Document
+' Docname : Nom du fichier produit en cours, sans l'extension (fichier docx/pdf)
+Dim DocName As String
+' ParentDocName : Dossier du modèle de publipostage
+Dim ParentDocName As String
+' ExportDirectory : Dossier dans lequel seront enregistrés les documents produits
+Dim ExportDirectory As String
+Dim oDS As MailMergeDataSource
+' UAI : contenu de la 1ère colonne (cf ColonneUAI), utilisé pour préfixer le nom des fichiers de sortie
+Dim UAI As String
+' UAIcount : en cas d'UAI successifs identiques, numéro ajouté dans le nom de fichier après l'UAI, pour ne pas écraser le courrier précédent
+Dim UAIcount As Integer
+
+' --- Affectation des objets et variables ---
+Set oDoc = ActiveDocument
+Set oDS = oDoc.MailMerge.DataSource
+ParentDocName = ActiveDocument.Name
+ExportDirectory = ActiveDocument.Path & Application.PathSeparator & "Publipostage" & Application.PathSeparator
+UAI = ""
+
+
+' Si le dossier d'export n'existe pas, on le crée
+If Dir(ExportDirectory, vbDirectory) = vbNullString Then
+    MkDir ExportDirectory
+End If
+
+iR = oDoc.MailMerge.DataSource.RecordCount
+Debug.Print iR
+
+' pour chaque ligne du tableau
+For i = 1 To iR
+    With oDoc.MailMerge
+        'Définition du premier et dernier enregistrement
+        .DataSource.FirstRecord = i
+        
+        .DataSource.LastRecord = i
+        ' Envoi des données dans un nouveau document
+        .Destination = wdSendToNewDocument
+        ' Exécution du publipostage
+        .Execute
+        ' Actualisation de l'enregistrement pour la sauvegarde
+        .DataSource.ActiveRecord = i
+        'Utilisation du premier champ de fusion et du nom du fichier parent pour obtenir le nom
+        If StrComp(UAI, .DataSource.DataFields(ColonneUAI).Value) = 0 Then
+            UAIcount = UAIcount + 1
+        Else
+            UAI = .DataSource.DataFields(ColonneUAI).Value
+            UAIcount = 1
+        End If
+
+        If UAIcount = 1 Then
+            DocName = .DataSource.DataFields(ColonneUAI).Value & "-" & ParentDocName
+        Else
+            ' Si l'UAI du fichier actuel est le même que celui du document précédent, on ajoute un numéro, pour ne pas écraser le document précédent
+            DocName = .DataSource.DataFields(ColonneUAI).Value & "-" & ParentDocName & " (" & UAIcount & ")"
+        End If
+        
+        ' Suppression de l'extension existante (doc ou docx)
+        DocName = Replace(DocName, ".docx", "")
+        DocName = Replace(DocName, ".doc", "")
+        Debug.Print DocName; i
+    End With
+    ' Enregistrement du document publiposté
+    With ActiveDocument
+        ' Enregistrement en DOCX
+        ' "FileFormat:=wdFormatDocumentDefault" gère le cas où le format d'enregistrement par défaut a été modifié (odt au lieu de docx, etc.) :
+        '   si l'extension et le format et le correspondent pas, Word renvoie une erreur.
+        .SaveAs ExportDirectory & DocName & ".docx", FileFormat:=wdFormatDocumentDefault
+        ' Export en PDF
+        .ExportAsFixedFormat outputFileName:=ExportDirectory & DocName & ".pdf", exportFormat:=wdExportFormatPDF
+        .Close
+    End With
+Next i
+End Sub
+
