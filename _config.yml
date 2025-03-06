@@ -25,6 +25,8 @@ exclude:
   - .obsidian
   - drafts
 
+plugins:
+  - jekyll-sitemap
 
 # Define Jekyll collections
 collections:
