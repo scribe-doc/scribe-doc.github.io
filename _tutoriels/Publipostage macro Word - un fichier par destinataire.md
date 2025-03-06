@@ -42,20 +42,20 @@ Elle a été testée sur Office 2016, mais devrait vraisemblablement fonctionner
 ### Préparer les documents Word et Excel
 
 - **Commencer par créer un publipostage classique** : créer le fichier Excel contenant les destinataires, puis le modèle Word, et enfin utiliser l'Assistant Fusion et publipostage de Word. Prévisualiser les courriers et vérifier qu'ils correspondent à ce qui est attendu.   
-Ne pas cliquer sur "Terminer & fusionner" (ou fermer le document produit pour revenir au modèle Word).  
-Si besoin, de nombreuses ressources sur internet expliquent comment créer un publipostage avec Word et Excel. Par exemple : 
-	- [Utiliser le publipostage pour personnaliser des lettres (microsoft.com)](https://support.microsoft.com/fr-fr/office/utiliser-le-publipostage-pour-personnaliser-des-lettres-d7686bb1-3077-4af3-926b-8c825e9505a3){:target="_blank"}  
-	- [Comment faire du publipostage avec Word et Excel (laminuteexcel.com)](https://laminuteexcel.com/comment-faire-du-publipostage-avec-excel-et-word/){:target="_blank"}  
-&nbsp;    
-- Remarques : 
-	- Valeurs identiques : si certaines lignes ont la même valeur dans la colonne A, ces lignes doivent *impérativement* se suivre. Ceci peut être fait en triant le tableau par la colonne A, par exemple.
-	- Nommage des fichiers :
-		- Les courriers individuels seront nommés ainsi :  
-		   \<valeur colonne A\>-\<nom du modèle Word\>.\<extension\>
-		- Par exemple, si la colonne A comporte la valeur "Pierre MARTIN" pour le premier destinataire (ligne 2), et que le modèle Word se nomme "Courrier bourse.docx", les fichiers correspondant à ce destinataire seront nommés ainsi :
-			- "Pierre MARTIN-Courrier bourse.docx"
-			- "Pierre MARTIN-Courrier bourse.pdf"
-		- Aussi, il est conseillé de choisir le nom du modèle Word, et le contenu de la colonne A du tableau, en fonction des noms de sortie souhaités.
+  Ne pas cliquer sur "Terminer & fusionner" (ou fermer le document produit pour revenir au modèle Word).  
+	- Si besoin, de nombreuses ressources sur internet expliquent comment créer un publipostage avec Word et Excel. Par exemple : 
+		- [Utiliser le publipostage pour personnaliser des lettres (microsoft.com)](https://support.microsoft.com/fr-fr/office/utiliser-le-publipostage-pour-personnaliser-des-lettres-d7686bb1-3077-4af3-926b-8c825e9505a3){:target="_blank"}  
+		- [Comment faire du publipostage avec Word et Excel (laminuteexcel.com)](https://laminuteexcel.com/comment-faire-du-publipostage-avec-excel-et-word/){:target="_blank"}  
+	- Des exemples de documents Word et Excel conçu pour être utilisés avec la macro de publipostage sont disponibles : [Fichiers d'exemple pour la macro de publipostage](/assets/autres/Fichiers%20exemple%20macro%20publipostage%20Word.zip).  
+	- Remarques : 
+		- Valeurs identiques : si certaines lignes ont la même valeur dans la colonne A, ces lignes doivent *impérativement* se suivre. Ceci peut être fait en triant le tableau par la colonne A, par exemple.
+		- Nommage des fichiers :
+			- Les courriers individuels seront nommés ainsi :  
+			   \<valeur colonne A\>-\<nom du modèle Word\>.\<extension\>
+			- Par exemple, si la colonne A comporte la valeur "Pierre MARTIN" pour le premier destinataire (ligne 2), et que le modèle Word se nomme "Courrier bourse.docx", les fichiers correspondant à ce destinataire seront nommés ainsi :
+				- "Pierre MARTIN-Courrier bourse.docx"
+				- "Pierre MARTIN-Courrier bourse.pdf"
+			- Aussi, il est conseillé de choisir le nom du modèle Word, et le contenu de la colonne A du tableau, en fonction des noms de sortie souhaités.
 
 ### Générer les courriers individuels
 
@@ -63,4 +63,6 @@ Si besoin, de nombreuses ressources sur internet expliquent comment créer un pu
 - Une fois le publipostage prêt, **cliquer sur l'icone de lancement de la macro de publipostage** située dans la barre de titre :  
   ![](IMG_Publipostage%20macro%20Word%20-%20un%20fichier%20par%20destinataire%206.jpg)  
   Les courriers vont alors être générés un par un.  
-Dans le dossier dans lequel se trouve le modèle Word, un sous-dossier "Publipostage" est créé automatiquement par la macro. Les courriers individuels sont créés dans ce dossier (deux fichiers par destinataire : un fichier PDF et un fichier DOCX).
+Dans le dossier dans lequel se trouve le modèle Word, un sous-dossier "Publipostage" est créé automatiquement par la macro. Les courriers individuels sont créés dans ce dossier (deux fichiers par destinataire : un fichier PDF et un fichier DOCX).  
+&nbsp;   
+Vérifier que le nombre de fichiers créés est égal à *2 \* \<nombre de destinataires\>*.
