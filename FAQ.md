@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Foire aux questions
-last_modified_date: 2025-03-04
+last_modified_date: 2025-03-05
 ---
 # Foire aux questions
 {: .no_toc style="margin-bottom:25px;"}
@@ -40,7 +40,7 @@ Les logiciels suivants permettent de modifier des fichiers PDF au niveau des **p
 ### Comment puis-je annoter ou compléter un document PDF ?
 Le logiciel Adobe Acrobat Reader, y compris dans sa version gratuite, propose plusieurs fonctionnalités pour annoter un document PDF : ajouter du texte, surligner/souligner/barrer du texte, ajouter une coche/croix, ajouter quelques formes de base, tracer à main levée, ajouter une signature..  
 Cela est souvent suffisant pour simplement remplir un document PDF, sans devoir l'imprimer puis le scanner.  
-![](IMG_FAQ_PDF_1_Adobe_annotation.jpg)
+![](IMG_FAQ_PDF_1_Adobe_annotation.jpg){: width="300" }
 ### Comment puis-je modifier le contenu d'un fichier PDF ? (contenu des pages)
 **Le format PDF n'est pas fait pour être modifié** (tout au plus, les formulaires PDF permettent de remplir certains champs). Idéalement, il faut partir du document source (fichier Writer/Word/Calc/Excel/..).  
 Cependant, des logiciels permettent d'effectuer des modifications dans une certaine mesure. Mais il y a souvent une **perte de mise en forme** partielle du document original.  
@@ -55,13 +55,17 @@ Les logiciels suivant peuvent être utilisés :
 ### Les fichiers PDF s'ouvrent dans Google Chrome au lieu de mon lecteur PDF habituel (Adobe Acrobat Reader, ..), comment puis-je corriger cela ?
 Voir le tutoriel [Problème : les fichiers PDF s’ouvrent avec Google Chrome](/tutoriels/problème-fichiers-pdf-ouvrent-dans-Chrome.html).  
 
-## Suites bureautiques
+## Suites bureautiques, Gestion électronique de documents
 
 ### OnlyOffice / Escola : Comment créer un lien public ?
 Voir le tutoriel [OnlyOffice Escola - Créer un lien public](/tutoriels/OnlyOffice Escola - Créer un lien public.html)  
 
 ### Microsoft Word : Comment, lors d'un publipostage, obtenir un fichier par destinataire, au lieu d'un seul fichier contenant tous les courriers ?
 Voir le tutoriel [Comment obtenir un document par destinataire lors d’un publipostage sous Word](/tutoriels/Publipostage macro Word - un fichier par destinataire.html)   
+
+### Nuxeo : Comment partager des documents via son espace personnel ?
+L'espace personnel Nuxeo permet de partager des documents sans limitation de durée.  
+Voir le tutoriel [Nuxeo - Partager des documents via son espace personnel](/tutoriels/Nuxeo - Partager des documents via son espace personnel.html) 
 
 ## Vidéo
   
