@@ -2,7 +2,9 @@ title: SCRIBE
 description: Solutions, Conseils et Ressources pour l'Informatique BureautiquE
 theme: just-the-docs
 
-url: https://scribe-doc.github.io
+url: "https://scribe-doc.github.io"
+plugins:
+  - jekyll-sitemap
 
 markdown: kramdown
 
@@ -25,8 +27,6 @@ exclude:
   - .obsidian
   - drafts
 
-plugins:
-  - jekyll-sitemap
 
 # Define Jekyll collections
 collections:
