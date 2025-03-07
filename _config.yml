@@ -4,6 +4,9 @@ theme: just-the-docs
 
 url: https://scribe-doc.github.io
 
+plugins:
+  - jekyll-sitemap
+
 markdown: kramdown
 
 #aux_links:
@@ -32,6 +35,13 @@ collections:
   tutoriels:
     #permalink: "/:collection/:path/"
     output: true
+
+defaults:
+  -
+    scope:
+      path: 'admin/**'
+    values:
+      sitemap: false
 
 just_the_docs:
   # Define which collections are used in just-the-docs
