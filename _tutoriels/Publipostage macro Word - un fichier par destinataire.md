@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[Bureautique] Word: Publipostage avec un document par destinataire (macro Word)"
+title: "[Suites bureautiques] Publipostage avec un document par destinataire (macro Word)"
 last_modified_date: 2025-03-06
 ---
 # Comment obtenir un document par destinataire lors d'un publipostage sous Word
