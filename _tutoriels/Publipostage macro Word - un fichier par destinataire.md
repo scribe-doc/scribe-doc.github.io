@@ -1,10 +1,21 @@
 ---
 layout: default
 title: "[Suites bureautiques] Publipostage avec un document par destinataire (macro Word)"
-last_modified_date: 2025-03-06
+last_modified_date: 2025-03-13
 ---
-# Comment obtenir un document par destinataire lors d'un publipostage sous Word
+# Comment obtenir un document par destinataire lors d'un publipostage sous Word ?
 
+&nbsp; 
+
+<details  markdown="block">
+  <summary>
+    Sommaire
+  </summary>
+  {: .text-delta }
+* Table of Content
+ {:toc}  
+
+</details>
 ## Introduction  
 &nbsp;  
 Le résultat d'un publipostage sous Word est habituellement un unique fichier contenant tous les courriers.  
@@ -28,7 +39,8 @@ Elle a été testée sur Office 2016, mais devrait vraisemblablement fonctionner
   ![](IMG_Publipostage%20macro%20Word%20-%20un%20fichier%20par%20destinataire%202.png)
   
 - Double-cliquer sur le nouveau module ("Module1") pour afficher son contenu (vide), et coller dedans le contenu (le code/texte) de la [macro de publipostage](/assets/autres/macro découpe publipostage v6.txt){:target="_blank"}.  
-- Enregistrer, puis fermer la fenêtre Visual Basic.  
+- Enregistrer, puis fermer la fenêtre Visual Basic.   
+
 ### Ajouter le raccourci vers la macro  
 - A droite de la barre de titre, cliquer sur la petite flèche permettant de personnaliser la barre d'outils Accès rapide, et cliquer sur "Autres commandes";  
   ![](IMG_Publipostage%20macro%20Word%20-%20un%20fichier%20par%20destinataire%204.jpg)  
@@ -66,3 +78,7 @@ Elle a été testée sur Office 2016, mais devrait vraisemblablement fonctionner
 Dans le dossier dans lequel se trouve le modèle Word, un sous-dossier "Publipostage" est créé automatiquement par la macro. Les courriers individuels sont créés dans ce dossier (deux fichiers par destinataire : un fichier PDF et un fichier DOCX).  
 &nbsp;   
 Vérifier que le nombre de fichiers créés est égal à *2 \* \<nombre de destinataires\>*.
+
+---
+
+Si les documents générés doivent être envoyés par e-mail à des destinataires différents, voir le tutoriel [Publipostage par mail avec Thunderbird](/tutoriels/Thunderbird - Publipostage mail avec Mail Merge.html).

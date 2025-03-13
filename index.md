@@ -11,7 +11,7 @@ permalink: /
  
 
 Bienvenue !  
-Vous pouvez commencer par [consulter la FAQ](/FAQ.html).  
+Vous pouvez commencer par **[consulter la FAQ](/FAQ.html)**.  
   
 &nbsp;    
 

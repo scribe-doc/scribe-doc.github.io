@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Foire aux questions
-last_modified_date: 2025-03-05
+last_modified_date: 2025-03-13
 ---
 # Foire aux questions
 {: .no_toc style="margin-bottom:25px;"}
@@ -18,6 +18,13 @@ last_modified_date: 2025-03-05
 
 </details>
   
+## E-mail
+
+### Comment puis-je effectuer un publipostage par mail ?
+Une solution est d'utiliser Mozilla Thunderbird avec le module complémentaire Mail Merge.  
+En utilisant un tableau contenant les informations spécifiques à chaque e-mail d'une part, et un modèle de mail d'autre part, il est possible de générer automatiquement de nombreux mails personnalisés. Il est également possible de joindre des pièces jointes personnalisées.  
+Voir le tutoriel [Publipostage par mail avec Thunderbird](/tutoriels/Thunderbird - Publipostage mail avec Mail Merge.html)
+
 ## Fichiers
 
 ### Comment puis-je renommer rapidement de nombreux fichiers ?
@@ -42,7 +49,7 @@ Le logiciel Adobe Acrobat Reader, y compris dans sa version gratuite, propose pl
 Cela est souvent suffisant pour simplement remplir un document PDF, sans devoir l'imprimer puis le scanner.  
 ![](IMG_FAQ_PDF_1_Adobe_annotation.jpg){: width="300" }
 ### Comment puis-je modifier le contenu d'un fichier PDF ? (contenu des pages)
-**Le format PDF n'est pas fait pour être modifié** (tout au plus, les formulaires PDF permettent de remplir certains champs). Idéalement, il faut partir du document source (fichier Writer/Word/Calc/Excel/..).  
+**Le format PDF n'est pas fait pour être modifié** (tout au plus, les formulaires PDF permettent de remplir certains champs, et certains outils permettent d'ajouter des annotations). Idéalement, il faut partir du document source (fichier Writer/Word/Calc/Excel/..).  
 Cependant, des logiciels permettent d'effectuer des modifications dans une certaine mesure. Mais il y a souvent une **perte de mise en forme** partielle du document original.  
 Les logiciels suivant peuvent être utilisés :
 - Microsoft Word : Ouvrir Word, puis menu "Fichier" > "Ouvrir", et sélectionner le fichier PDF à ouvrir.
