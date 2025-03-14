@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "[E-mail] Publipostage par mail avec Thunderbird"
-last_modified_date: 2025-03-13
+last_modified_date: 2025-03-14
 ---
 # Comment faire un publipostage par mail avec avec Thunderbird et l'extension Mail Merge ?
 
