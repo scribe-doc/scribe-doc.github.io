@@ -14,7 +14,7 @@ defaults:
 exclude:
   - .obsidian
   - drafts
-  - [vendor]
+  - vendor
 
 favicon_ico: "/favicon.ico"
 logo: "/assets/images/logo.png"
