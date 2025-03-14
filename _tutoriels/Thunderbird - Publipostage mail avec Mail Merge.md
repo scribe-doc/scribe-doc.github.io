@@ -61,7 +61,7 @@ En cas de pièces jointes personnalisées, une colonne du tableau doit contenir 
 Dans l'idéal (car plus rapide), ces noms de fichiers sont calculés par une formule, par exemple : 
 ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_20.png)
 Remarques :  
-• depuis Thunderbird 102, seul le nom du fichier doit être indiqué, et non plus le chemin entier comme précédemment);  
+• depuis Thunderbird 102, **seul le nom du fichier doit être indiqué**, et non plus le chemin entier du fichier comme précédemment; de nombreux tutoriels en ligne ne sont plus à jour sur ce point.  
 • ces fichiers à joindre doivent avoir été créés précédemment, par exemple avec un publipostage. Voir notamment le tutoriel [Comment obtenir un document par destinataire lors d’un publipostage sous Word](/tutoriels/Publipostage macro Word - un fichier par destinataire.html).
 {: .pj}
 
