@@ -101,6 +101,10 @@ En cas de pièces jointes personnalisées :
  ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_21.png)
 {: .pj}
 
+S'il est nécessaire d'envoyer plus d'une pièces jointe personnalisée à chaque destinataire/e-mail, les noms des colonnes (voir le classeur 3 dans les [fichiers d'exemple](/assets/autres/Fichiers exemple Mail Merge Thunderbird.zip)) peuvent être placés les uns en dessous des autres comme ceci :  
+ ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_24.png)
+ {: .pj}
+
 - Vérifier que la source données est correctement chargée :
 	- En bas à droite de la fenêtre, cliquer sur "Fichier";  ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_7.png)
 	- Vérifier que les données de la source de données sont correctement affichées. Si besoin, utiliser la barre de défilement en bas pour faire apparaitre les colonnes de droite. Enfin, fermer la fenêtre à l'aide de la croix en haut à droite.  
