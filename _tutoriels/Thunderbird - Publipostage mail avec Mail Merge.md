@@ -45,9 +45,13 @@ Dans le cas où Mail Merge n'est pas présent dans la liste, procéder comme cec
 L'extension Mail Merge devrait apparaitre dans la liste des résultats (à droite).
 {: .callout-yellow}
 
-- Vérifier qu'il s'agit de l'extension "Mail Merge" "Alexander Bergmann", puis cliquer sur "Ajouter à Thunderbird". Confirmer si besoin.  
+- Vérifier qu'il s'agit de l'extension "Mail Merge" "Alexander Bergmann", puis cliquer sur "Ajouter à Thunderbird".   
   ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_1.png){:width="500px"}    
-  L'extension Mail Merge est à présent installée.  
+- Si une demande de confirmation apparait, accepter en cliquant sur "Ajouter".  
+  ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_27.png)  
+
+
+L'extension Mail Merge est à présent installée.  
 En cas de besoin, consulter la page [Installer une extension sur Thunderbird (mozilla.org)](https://support.mozilla.org/fr/kb/installer-une-extension-sur-thunderbird){:target="_blank"}.  
 
 ## Utilisation
