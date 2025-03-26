@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "[E-mail] Publipostage par mail avec Thunderbird"
-last_modified_date: 2025-03-14
+last_modified_date: 2025-03-26
 ---
 # Comment faire un publipostage par mail avec avec Thunderbird et l'extension Mail Merge ?
 
@@ -36,6 +36,15 @@ Il est possible d'avoir des **pièces jointes personnalisées** (une pièce join
   ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_17.png)
 - Dans la liste des résultats, cliquer sur "Mail Merge" (*et non pas "Mail Merge P"*);  
   ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_18.png)
+
+Dans le cas où Mail Merge n'est pas présent dans la liste, procéder comme ceci :  
+• Dans la partie gauche de la page, cliquer sur "Tous les systèmes";  
+![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_25.png)    
+• Puis cliquer sur "Quel que soit Thunderbird"  
+![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_26.png)  
+L'extension Mail Merge devrait apparaitre dans la liste des résultats (à droite).
+{: .callout-yellow}
+
 - Vérifier qu'il s'agit de l'extension "Mail Merge" "Alexander Bergmann", puis cliquer sur "Ajouter à Thunderbird". Confirmer si besoin.  
   ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_1.png){:width="500px"}    
   L'extension Mail Merge est à présent installée.  

@@ -72,4 +72,6 @@ callouts:
     color: red
   pj:
     color: blue
+  callout-yellow:
+    color: yellow
 
