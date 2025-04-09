@@ -99,6 +99,8 @@ Exemple :
 	- Soit en cliquant sur le bouton "Mail Merge" dans la barre d'outils;  
 	  ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_4.png)
 	- Soit en allant de le menu "Outils" puis  "Mail Merge".![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_5.png)
+- Si le message de rappel pour les pièces jointes apparait, cliquer sur "Non, envoyer maintenant" (les pièces jointes personnalisées vont être ajoutées peu après).  
+  ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_28.png)
 - Renseigner les informations demandées : 
 	- Pour la valeur "Source", sélectionner "XLSX";
 	- Pour la valeur "Fichier", cliquer sur "Parcourir...", puis sélectionner la source de données (fichier Excel préparé précédemment);
