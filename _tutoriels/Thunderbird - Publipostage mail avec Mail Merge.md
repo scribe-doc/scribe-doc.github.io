@@ -3,7 +3,7 @@ layout: default
 title: "[E-mail] Publipostage par mail avec Thunderbird"
 last_modified_date: 2025-03-26
 ---
-# Comment faire un publipostage par mail avec avec Thunderbird et l'extension Mail Merge ?
+# Comment faire un publipostage par mail avec Thunderbird et l'extension Mail Merge ?
 
 Le tutoriel ci-dessous explique comment effectuer un publipostage avec Thunderbird et Mail Merge, avec ou sans pièce jointe spécifique à chaque destinataire.
 
