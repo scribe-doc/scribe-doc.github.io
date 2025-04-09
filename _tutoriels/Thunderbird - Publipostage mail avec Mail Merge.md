@@ -58,7 +58,7 @@ En cas de besoin, consulter la page [Installer une extension sur Thunderbird (mo
 ### Préparer la source de données
 
 Préparer le classeur Excel/Calc (source de données) contenant les informations de chaque destinataires.  
-Des exemples d'exemples sont disponible : [Fichiers d'exemple de tableau pour Mail Merge](/assets/autres/Fichiers exemple Mail Merge Thunderbird.zip).  
+Des exemples sont disponibles : [Fichiers d'exemple de tableau pour Mail Merge](/assets/autres/Fichiers exemple Mail Merge Thunderbird.zip).  
 Exemple :  
 ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_2.png)  
 
@@ -86,7 +86,7 @@ Remarques :
 	- Idéalement, déposer les pièces jointes sur un espace de stockage temporaire, et ne mettre que le lien dans l'e-mail;
 	- Si les pièces sont très légères, il est possible de les ajouter en pièces jointes. Mais de manière générale c'est à éviter pour ne pas surcharger les boites mail.
 - Ajouter le destinataire du mail : 
-	- dans le champ "Pour" (destinataire), saisir "\{\{MailDestinataire\}\}" (nom de la colonne des adresse mail, entouré de deux accolades de chaque côté);
+	- dans le champ "Pour" (destinataire), saisir "\{\{MailDestinataire\}\}" (nom de la colonne des adresses mail, entouré de deux accolades de chaque côté);
 	- puis valider avec la touche Tabulation ou la touche Entrée du clavier.
 - Ajouter les éventuelles informations complémentaires spécifiques à chaque destinataire, si nécessaire: pour cela, saisir le nom de la colonne correspondante, entourée de 2 accolades (comme pour le destinataire), à l'emplacement souhaité dans le corps du mail et/ou dans l'objet du mail.   
 
@@ -114,11 +114,11 @@ En cas de pièces jointes personnalisées :
  ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_21.png)
 {: .pj}
 
-S'il est nécessaire d'envoyer plus d'une pièces jointe personnalisée à chaque destinataire/e-mail, les noms des colonnes (voir le classeur 3 dans les [fichiers d'exemple](/assets/autres/Fichiers exemple Mail Merge Thunderbird.zip)) peuvent être placés les uns en dessous des autres comme ceci :  
+S'il est nécessaire d'envoyer plus d'une pièce jointe personnalisée à chaque destinataire/e-mail, les noms des colonnes (voir le classeur 3 dans les [fichiers d'exemple](/assets/autres/Fichiers exemple Mail Merge Thunderbird.zip)) peuvent être placés les uns en dessous des autres comme ceci :  
  ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_24.png)
  {: .pj}
 
-- Vérifier que la source données est correctement chargée :
+- Vérifier que la source de données est correctement chargée :
 	- En bas à droite de la fenêtre, cliquer sur "Fichier";  ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_7.png)
 	- Vérifier que les données de la source de données sont correctement affichées. Si besoin, utiliser la barre de défilement en bas pour faire apparaitre les colonnes de droite. Enfin, fermer la fenêtre à l'aide de la croix en haut à droite.  
 	  ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_9.png)
@@ -159,7 +159,7 @@ En cas de pièces jointes personnalisées :
   • pour le premier mail, le dernier, et quelques mail entre-deux, vérifier que la pièce jointe correspond bien au destinataire (par précaution).
  {: .pj}
 
-- Enfin, précéder à l'envoi : faire un clic droit sur le dossier "Messages en attente", puis cliquer sur "Envoyer les messages non envoyés".  
+- Enfin, procéder à l'envoi : faire un clic droit sur le dossier "Messages en attente", puis cliquer sur "Envoyer les messages non envoyés".  
   ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_14.png)  
   *Les messages vont alors être envoyés un par un.*  
   *Une copie des messages envoyés sera placée dans le dossier "Messages envoyés" de la boite mail associée à l'adresse d'envoi (ou dans le dossier "Messages envoyés" des dossiers locaux si cette boite n'est pas présente dans Thunderbird).*
