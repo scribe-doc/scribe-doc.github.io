@@ -67,8 +67,8 @@ just_the_docs:
 
 
 callouts:
-  warning:
-    title: Warning
+  callout-warning:
+    title: Attention
     color: red
   pj:
     color: blue

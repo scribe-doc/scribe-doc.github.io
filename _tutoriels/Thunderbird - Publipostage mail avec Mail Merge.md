@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "[E-mail] Publipostage par mail avec Thunderbird"
-last_modified_date: 2025-03-26
+last_modified_date: 2025-04-10
 ---
 # Comment faire un publipostage par mail avec Thunderbird et l'extension Mail Merge ?
 
@@ -166,6 +166,8 @@ En cas de pièces jointes personnalisées :
   *Les messages vont alors être envoyés un par un.*  
   *Une copie des messages envoyés sera placée dans le dossier "Messages envoyés" de la boite mail associée à l'adresse d'envoi (ou dans le dossier "Messages envoyés" des dossiers locaux si cette boite n'est pas présente dans Thunderbird).*
 
+Si vous ne souhaitez pas envoyer les messages immédiatement, il est préférable de les déplacer temporairement dans un autre dossier ("Brouillons" par exemple) que le dossier "Messages en attente". En effet, suivant le paramétrage de Thunderbird en place, celui-ci peut éventuellement envoyer les messages du dossier "Messages en attente" juste après son ouverture ou lorsqu'il est de nouveau connecté.
+{: .callout-warning}
 
 ## Ressources complémentaires
 
