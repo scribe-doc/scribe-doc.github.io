@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Foire aux questions
-last_modified_date: 2025-03-13
+last_modified_date: 2025-04-11
 ---
 # Foire aux questions
 {: .no_toc style="margin-bottom:25px;"}
@@ -79,7 +79,15 @@ Voir le tutoriel [Nuxeo - Partager des documents via son espace personnel](/tuto
 ### Comment supprimer le début et/ou la fin d'une vidéo ?
 - Une méthode simple consiste à utiliser le logiciel libre VLC. Cette méthode a l'avantage de ne pas réencoder la vidéo, et de ne pas nécessiter d'autre logiciel que VLC.  
 Voir le tutoriel [Recouper une vidéo avec VLC](/tutoriels/recouper-une-video-avec-VLC.html).  
-- Il aussi existe des logiciels de montage vidéo (comme [Shotcut](https://www.shotcut.org/){:target="_blank"}) qui permettent de faire cela (et bien plus), mais leur prise en main peut prendre un peu de temps.  
+- Voir aussi le logiciel LosslessCut ci-dessous.
+- Il existe d'autres logiciels de montage vidéo (comme [Shotcut](https://www.shotcut.org/){:target="_blank"}) qui permettent de faire cela (et bien plus), mais leur prise en main peut prendre du temps, et la plupart nécessitent de réencoder la vidéo.  
+
+### Comment supprimer des segments d'une vidéo, extraire des segments, les fusionner.. sans les réencoder ?
+LosslessCut est un logiciel libre multifonction dédié à l'édition sans perte de fichiers vidéo et audio, offrant des outils rapides et efficaces pour découper, fusionner ou réorganiser les médias tout en préservant leur qualité d'origine.  
+Téléchargement : [Télécharger Lossless-Cut pour Windows (github.com)](https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z){:target="_blank"} | [Tous des téléchargements (github.com)](https://github.com/mifi/lossless-cut?tab=readme-ov-file#download){:target="_blank"}  
+Tutoriels : [Tutoriel assez complet sur LosslessCut (youtube.com)](https://www.youtube.com/watch?v=7qB-s1ysrAg){:target="_blank"}  |  [Tutoriel court sur LosslessCut pour supprimer uniquement le début et/ou la fin d'une vidéo sur (youtube.com)](https://www.youtube.com/watch?v=71u-9jac8i4){:target="_blank"}  
+Site officiel : [losslesscut.app](https://losslesscut.app/){:target="_blank"}  
+
 
 
 ### Comment télécharger une vidéo présente sur Youtube, Dailymotion, etc.. ?
