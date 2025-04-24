@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Foire aux questions
-last_modified_date: 2025-04-11
+last_modified_date: 2025-04-24
 ---
 # Foire aux questions
 {: .no_toc style="margin-bottom:25px;"}
@@ -25,6 +25,15 @@ Une solution est d'utiliser Mozilla Thunderbird avec le module complémentaire M
 En utilisant un tableau contenant les informations spécifiques à chaque e-mail d'une part, et un modèle de mail d'autre part, il est possible de générer automatiquement de nombreux mails personnalisés. Il est également possible de joindre des pièces jointes personnalisées.  
 Voir le tutoriel [Publipostage par mail avec Thunderbird](/tutoriels/Thunderbird - Publipostage mail avec Mail Merge.html)
 
+### Lors de la rédaction d'un mail dans Thunderbird, lorsque j'essaie d'insérer un lien, la fenêtre de rédaction ne réponds plus et la fenêtre des propriétés du lien n'apparait pas. Comment résoudre ce problème ?
+
+La fenêtre de rédaction du mail est figée car la fenêtre des propriétés du lien doit d'abord être fermée. Cependant, du fait d'un bug de Thunderbird, la fenêtre des propriétés du lien est invisible car elle se trouve soit derrière la fenêtre du message, soit en dehors de la zone d'affichage.  
+Solutions : 
+- Pour débloquer la fenêtre de rédaction : appuyer sur la touche "Echap" pour fermer la fenêtre de paramétrage du lien.  
+  Il est alors possible de coller directement le lien dans le mail avec Ctrl-V (solution de contournement temporaire).  
+- Il est aussi possible de déplacer la fenêtre des propriétés du lien : utiliser le raccourci Alt-Espace (sous Windows), sélectionner "Déplacer", puis utiliser les flèches directionnelles.  
+  
+Voir aussi [cette page](https://support.mozilla.org/en-US/questions/1427214){:target="_blank"} sur le forum de support de Firefox.  
 ## Fichiers
 
 ### Comment puis-je renommer rapidement de nombreux fichiers ?
