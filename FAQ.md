@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Foire aux questions
-last_modified_date: 2025-04-24
+last_modified_date: 2025-04-25
 ---
 # Foire aux questions
 {: .no_toc style="margin-bottom:25px;"}
@@ -43,6 +43,12 @@ Voir le tutoriel [Renommer des fichiers en masse avec le logiciel Ant Renamer](/
 ### Comment identifier les fichiers en double (et éventuellement les supprimer) ?
 Le logiciel libre dupeGuru permet d'identifier les doublons. Il est possible de choisir le français dans les paramètres.  
 [Site officiel de dupeGuru](https://dupeguru.voltaicideas.net/){:target="_blank"}   
+
+### Comment identifier facilement les dossiers volumineux, pour libérer de la place sur un disque par exemple ?
+Certains logiciels permettent d'afficher l'espace utilisé par les dossiers de manière graphique, facilitant l'identification et le nettoyage des dossiers volumineux.  
+Voici deux logiciel libres qui permettent cela, parmi d'autres :  
+- WinDirStat - [Site officiel de WinDirStat](https://windirstat.net/){:target="_blank"}  
+- Filelight - [Page officielle de Filelight](https://apps.kde.org/fr/filelight/){:target="_blank"}  
 
 ## Documents PDF
   
