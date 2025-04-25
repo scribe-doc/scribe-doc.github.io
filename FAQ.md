@@ -77,6 +77,14 @@ Les logiciels suivant peuvent être utilisés :
 ### Les fichiers PDF s'ouvrent dans Google Chrome au lieu de mon lecteur PDF habituel (Adobe Acrobat Reader, ..), comment puis-je corriger cela ?
 Voir le tutoriel [Problème : les fichiers PDF s’ouvrent avec Google Chrome](/tutoriels/problème-fichiers-pdf-ouvrent-dans-Chrome.html).  
 
+### Comment puis-je créer des formulaires PDF ?
+Les formulaires PDF sont des documents PDF qui incluent des champs destinés à être renseignés par l'utilisateur. Plusieurs logiciels permettent de créer ce type de formulaire, dont :  
+- OnlyOffice / Escola - Voir l'article [Comment créer les formulaires à remplir (onlyoffice.com)](https://www.onlyoffice.com/blog/fr/2022/01/comment-creer-les-formulaires-a-remplir){:target="_blank"}  
+- LibreOffice Writer - De nombreuses ressources existent sur internet à ce sujet; voir par exemple :
+	- [Libre Office Les Formulaires PDF à compléter (edu.ge.ch)](https://edu.ge.ch/site/utilisation-logiciel/2020/09/24/libre-office-writer-la-sauvegarde-avec-les-polices-copie-3/){:target="_blank"}  
+	- [Créer des formulaires pdf avec LibreOffice (prim27.ac-normandie.fr)](https://prim27.ac-normandie.fr/creer-des-formulaires-pdf-avec-libreoffice){:target="_blank"}  
+	- [Création d'un Formulaire Writer (openoffice.org)](https://www.openoffice.org/fr/Documentation/Writer/Creation_de_Formulaires.pdf){:target="_blank"}  
+
 ## Suites bureautiques, Gestion électronique de documents
 
 ### OnlyOffice / Escola : Comment créer un lien public ?
