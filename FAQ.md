@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Foire aux questions
-last_modified_date: 2025-04-25
+last_modified_date: 2025-05-14
 ---
 # Foire aux questions
 {: .no_toc style="margin-bottom:25px;"}
@@ -33,7 +33,7 @@ Solutions :
   Il est alors possible de coller directement le lien dans le mail avec Ctrl-V (solution de contournement temporaire).  
 - Il est aussi possible de déplacer la fenêtre des propriétés du lien : utiliser le raccourci Alt-Espace (sous Windows), sélectionner "Déplacer", puis utiliser les flèches directionnelles.  
   
-Voir aussi [cette page](https://support.mozilla.org/en-US/questions/1427214){:target="_blank"} sur le forum de support de Firefox.  
+Voir aussi [cette page (support.mozilla.org)](https://support.mozilla.org/en-US/questions/1427214){:target="_blank"} sur le forum de support de Firefox.  
 ## Fichiers
 
 ### Comment puis-je renommer rapidement de nombreux fichiers ?
@@ -42,13 +42,13 @@ Voir le tutoriel [Renommer des fichiers en masse avec le logiciel Ant Renamer](/
 
 ### Comment identifier les fichiers en double (et éventuellement les supprimer) ?
 Le logiciel libre dupeGuru permet d'identifier les doublons. Il est possible de choisir le français dans les paramètres.  
-[Site officiel de dupeGuru](https://dupeguru.voltaicideas.net/){:target="_blank"}   
+[Site officiel de dupeGuru (dupeguru.voltaicideas.net)](https://dupeguru.voltaicideas.net/){:target="_blank"}   
 
 ### Comment identifier facilement les dossiers volumineux, pour libérer de la place sur un disque par exemple ?
 Certains logiciels permettent d'afficher l'espace utilisé par les dossiers de manière graphique, facilitant l'identification et le nettoyage des dossiers volumineux.  
 Voici deux logiciel libres qui permettent cela, parmi d'autres :  
-- WinDirStat - [Site officiel de WinDirStat](https://windirstat.net/){:target="_blank"}  
-- Filelight - [Page officielle de Filelight](https://apps.kde.org/fr/filelight/){:target="_blank"}  
+- WinDirStat - [Site officiel de WinDirStat (windirstat.net)](https://windirstat.net/){:target="_blank"}  
+- Filelight - [Page officielle de Filelight (sur kde.org)](https://apps.kde.org/fr/filelight/){:target="_blank"}  
 
 ## Documents PDF
   
@@ -93,6 +93,12 @@ Voir le tutoriel [OnlyOffice Escola - Créer un lien public](/tutoriels/OnlyOffi
 ### Microsoft Word : Comment, lors d'un publipostage, obtenir un fichier par destinataire, au lieu d'un seul fichier contenant tous les courriers ?
 Voir le tutoriel [Comment obtenir un document par destinataire lors d’un publipostage sous Word](/tutoriels/Publipostage macro Word - un fichier par destinataire.html)   
 
+### Microsoft Excel : Comment créer un tableau croisé dynamique ?
+De nombreuses ressources en ligne expliquent comment créer un tableau croisé dynamique sous Excel. En voici quelques unes :  
+- [Comment créer un tableau croisé dynamique dans Excel (vidéo de 8 minutes; youtube.com)](https://www.youtube.com/watch?v=fmeQpItYf9Y){:target="_blank"}  
+- [Créer un tableau croisé dynamique pour analyser des données de feuille de calcul (microsoft.com)](https://support.microsoft.com/fr-fr/office/cr%C3%A9er-un-tableau-crois%C3%A9-dynamique-pour-analyser-des-donn%C3%A9es-de-feuille-de-calcul-a9a84538-bfe9-40a9-a8e9-f99134456576){:target="_blank"}  
+- [Réalisez des tableaux croisés dynamiques (openclassrooms.com)](https://openclassrooms.com/fr/courses/7168336-maitrisez-les-fondamentaux-dexcel/7216018-realisez-des-tableaux-croises-dynamiques-1){:target="_blank"}  
+
 ### Nuxeo : Comment partager des documents via son espace personnel ?
 L'espace personnel Nuxeo permet de partager des documents sans limitation de durée.  
 Voir le tutoriel [Nuxeo - Partager des documents via son espace personnel](/tutoriels/Nuxeo - Partager des documents via son espace personnel.html) 
@@ -103,7 +109,7 @@ Voir le tutoriel [Nuxeo - Partager des documents via son espace personnel](/tuto
 - Une méthode simple consiste à utiliser le logiciel libre VLC. Cette méthode a l'avantage de ne pas réencoder la vidéo, et de ne pas nécessiter d'autre logiciel que VLC.  
 Voir le tutoriel [Recouper une vidéo avec VLC](/tutoriels/recouper-une-video-avec-VLC.html).  
 - Voir aussi le logiciel LosslessCut ci-dessous.
-- Il existe d'autres logiciels de montage vidéo (comme [Shotcut](https://www.shotcut.org/){:target="_blank"}) qui permettent de faire cela (et bien plus), mais leur prise en main peut prendre du temps, et la plupart nécessitent de réencoder la vidéo.  
+- Il existe d'autres logiciels de montage vidéo (comme [Shotcut (shotcut.org)](https://www.shotcut.org/){:target="_blank"}) qui permettent de faire cela (et bien plus), mais leur prise en main peut prendre du temps, et la plupart nécessitent de réencoder la vidéo.  
 
 ### Comment supprimer des segments d'une vidéo, extraire des segments, les fusionner.. sans les réencoder ?
 LosslessCut est un logiciel libre multifonction dédié à l'édition sans perte de fichiers vidéo et audio, offrant des outils rapides et efficaces pour découper, fusionner ou réorganiser les médias tout en préservant leur qualité d'origine.  
