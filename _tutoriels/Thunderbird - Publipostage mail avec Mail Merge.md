@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "[E-mail] Publipostage par mail avec Thunderbird"
-last_modified_date: 2025-04-10
+last_modified_date: 2025-09-08
 ---
 # Comment faire un publipostage par mail avec Thunderbird et l'extension Mail Merge ?
 
@@ -104,7 +104,7 @@ Exemple :
 - Renseigner les informations demandées : 
 	- Pour la valeur "Source", sélectionner "XLSX";
 	- Pour la valeur "Fichier", cliquer sur "Parcourir...", puis sélectionner la source de données (fichier Excel préparé précédemment);
-	  *Remarque : le champ "Feuille" n'est utile que si le tableau à utiliser ne se trouve pas dans la première feuille du classeur Excel/Calc.*
+	  *Remarque : le champ "Feuille" n'est utile que dans le cas où le tableau à utiliser ne se trouve pas dans la première feuille du classeur Excel/Calc. Il faut alors indiquer le nom de la feuille contenant le tableau.*
 	- Pour la valeur "Mode de livraison", sélectionner "Envoyer plus tard";  
 	  *En sélectionnant ce mode de livraison, les e-mail seront d'abord créés dans un dossier pour être revus, ce qui permet de vérifier leur contenu avant leur envoi.*
 	- ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_6.png)  
