@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[Suites bureautiques] Créer un lien public avec OnlyOffice / Escola"
+title: Créer un lien public avec OnlyOffice / Escola
 last_modified_date: 2024-07-15
 ---
 # OnlyOffice / Escola : Créer un lien public

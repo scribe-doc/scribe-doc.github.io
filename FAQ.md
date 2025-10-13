@@ -75,7 +75,7 @@ Les logiciels suivant peuvent être utilisés :
 - Gimp : Ouvrir Gimp, puis "Fichier" > "Ouvrir...", et sélectionner le fichier PDF à ouvrir. Chaque page sélectionnée est convertie en une image indépendante, qui peut ensuite être modifiée.
   
 ### Les fichiers PDF s'ouvrent dans Google Chrome au lieu de mon lecteur PDF habituel (Adobe Acrobat Reader, ..), comment puis-je corriger cela ?
-Voir le tutoriel [Problème : les fichiers PDF s’ouvrent avec Google Chrome](/tutoriels/problème-fichiers-pdf-ouvrent-dans-Chrome.html).  
+Voir le tutoriel [Problème : les fichiers PDF s’ouvrent avec Google Chrome](/pdf/problème-fichiers-pdf-ouvrent-dans-Chrome.html).  
 
 ### Comment puis-je créer des formulaires PDF ?
 Les formulaires PDF sont des documents PDF qui incluent des champs destinés à être renseignés par l'utilisateur. Plusieurs logiciels permettent de créer ce type de formulaire, dont :  
@@ -88,10 +88,10 @@ Les formulaires PDF sont des documents PDF qui incluent des champs destinés à 
 ## Suites bureautiques, Gestion électronique de documents
 
 ### OnlyOffice / Escola : Comment créer un lien public ?
-Voir le tutoriel [OnlyOffice Escola - Créer un lien public](/tutoriels/OnlyOffice Escola - Créer un lien public.html)  
+Voir le tutoriel [OnlyOffice Escola - Créer un lien public](/suites-bureautiques/OnlyOffice Escola - Créer un lien public.html)  
 
 ### Microsoft Word : Comment, lors d'un publipostage, obtenir un fichier par destinataire, au lieu d'un seul fichier contenant tous les courriers ?
-Voir le tutoriel [Comment obtenir un document par destinataire lors d’un publipostage sous Word](/tutoriels/Publipostage macro Word - un fichier par destinataire.html)   
+Voir le tutoriel [Comment obtenir un document par destinataire lors d’un publipostage sous Word](/suites-bureautiques/Publipostage macro Word - un fichier par destinataire.html)   
 
 ### Microsoft Excel : Comment créer un tableau croisé dynamique ?
 De nombreuses ressources en ligne expliquent comment créer un tableau croisé dynamique sous Excel. En voici quelques unes :  
@@ -101,13 +101,13 @@ De nombreuses ressources en ligne expliquent comment créer un tableau croisé d
 
 ### Nuxeo : Comment partager des documents via son espace personnel ?
 L'espace personnel Nuxeo permet de partager des documents sans limitation de durée.  
-Voir le tutoriel [Nuxeo - Partager des documents via son espace personnel](/tutoriels/Nuxeo - Partager des documents via son espace personnel.html) 
+Voir le tutoriel [Nuxeo - Partager des documents via son espace personnel](/suites-bureautiques/Nuxeo - Partager des documents via son espace personnel.html) 
 
 ## Vidéo
   
 ### Comment supprimer le début et/ou la fin d'une vidéo ?
 - Une méthode simple consiste à utiliser le logiciel libre VLC. Cette méthode a l'avantage de ne pas réencoder la vidéo, et de ne pas nécessiter d'autre logiciel que VLC.  
-Voir le tutoriel [Recouper une vidéo avec VLC](/tutoriels/recouper-une-video-avec-VLC.html).  
+Voir le tutoriel [Recouper une vidéo avec VLC](/video/recouper-une-video-avec-VLC.html).  
 - Voir aussi le logiciel LosslessCut ci-dessous.
 - Il existe d'autres logiciels de montage vidéo (comme [Shotcut (shotcut.org)](https://www.shotcut.org/){:target="_blank"}) qui permettent de faire cela (et bien plus), mais leur prise en main peut prendre du temps, et la plupart nécessitent de réencoder la vidéo.  
 
@@ -121,6 +121,6 @@ Site officiel : [losslesscut.app](https://losslesscut.app/){:target="_blank"}
 
 ### Comment télécharger une vidéo présente sur Youtube, Dailymotion, etc.. ?
 Voici 3 logiciel libres qui permettent cela, parmi d'autres :
-- Vividl - Voir le tutoriel [Télécharger des vidéos en ligne avec Vividl](/tutoriels/Télécharger des vidéos en ligne avec Vividl.html)
+- Vividl - Voir le tutoriel [Télécharger des vidéos en ligne avec Vividl](/video/Télécharger des vidéos en ligne avec Vividl.html)
 - TarTube
 - Youtube-DLG

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[PDF] Problème : les fichiers PDF s'ouvrent dans Chrome"
+title: "Problème : les fichiers PDF s'ouvrent dans Chrome"
 last_modified_date: 2024-07-08
 ---
 

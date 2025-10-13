@@ -45,15 +45,27 @@ collections:
   tutoriels:
     #permalink: "/:collection/:path/"
     output: true
+  pdf:
+    output: true
+  video:
+    output: true
+  suites-bureautiques:
+    output: true
 
 
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
     # Reference the "tests" collection
+    pdf:
+      name: "Documents PDF"
+    suites-bureautiques:
+      name: "Suites bureautiques, GED"
+    video:
+      name: "Vidéos"
     tutoriels:
       # Give the collection a name
-      name: Tutoriels
+      name: "Autres tutoriels"
       # Exclude the collection from the navigation
       # Supports true or false (default)
       # nav_exclude: true
@@ -65,7 +77,6 @@ just_the_docs:
       # search_exclude: true
 
 
-
 callouts:
   callout-warning:
     title: Attention
@@ -74,4 +85,7 @@ callouts:
     color: blue
   callout-yellow:
     color: yellow
+  cl-fct1:
+    color: blue
+
 

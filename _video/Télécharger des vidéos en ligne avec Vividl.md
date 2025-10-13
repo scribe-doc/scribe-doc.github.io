@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[Vidéo] Télécharger des vidéos en ligne avec Vividl"
+title: Télécharger des vidéos en ligne avec Vividl
 last_modified_date: 2025-03-17
 ---
 

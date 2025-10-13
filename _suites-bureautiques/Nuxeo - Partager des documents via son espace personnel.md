@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[GED] Partager des documents via son espace personnel Nuxeo"
+title: Partager des documents via son espace personnel Nuxeo
 last_modified_date: 2025-03-05
 ---
 # Nuxeo - Partager des documents via son espace personnel

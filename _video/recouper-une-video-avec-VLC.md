@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "[Vidéo] Recouper une vidéo avec VLC"
+title: Recouper une vidéo avec VLC
 last_modified_date: 2024-07-09
 ---
 # Recouper une vidéo avec VLC (sans la réencoder)

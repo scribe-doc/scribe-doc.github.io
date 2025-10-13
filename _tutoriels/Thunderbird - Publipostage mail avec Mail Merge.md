@@ -20,14 +20,15 @@ Le tutoriel ci-dessous explique comment effectuer un publipostage avec Thunderbi
 ## Introduction
 *Mail Merge* est une extension (module complémentaire, addon) pour Thunderbird permettant de faire du publipostage mail. Comme avec un publipostage classique sur Word/Writer, on utilise une source de données (fichier XLSX ou CSV créé avec Excel ou Calc, par exemple).  
 Cette source de données va contenir les informations spécifiques à chaque mail (une ligne = un mail). Par exemple : adresse e-mail du destinataire, nom, prénom, pièce jointe spécifique …  
-Cette source de données est associée un modèle de mail, qui servira de base pour chaque e-mail envoyé.  
+Cette source de données est associée un modèle de mail, qui servira de base pour chaque e-mail envoyé.   
+Ce guide est basé sur Mail Merge version 10.5.0.
 
 Il est possible d'avoir des **pièces jointes personnalisées** (une pièce jointe différente pour chaque e-mail). Les étapes sur fond bleu, comme ceci, indiquent les étapes à exécuter dans ce cas de figure.  
 {: .pj}
 
 ## Installation de l'extension Mail Merge pour Thunderbird
 
-[L’addon Mail Merge](https://addons.thunderbird.net/fr/thunderbird/addon/mail-merge/){:target="_blank"} doit être installé avant de continuer. Ce guide est basé sur Mail Merge version 10.5.0.  
+[L’addon Mail Merge](https://addons.thunderbird.net/fr/thunderbird/addon/mail-merge/){:target="_blank"} doit être installé avant de continuer. Pour cela :
 - Dans Thunderbird, cliquer sur l'icone du menu en haut à droite, puis cliquer sur "Modules complémentaires et thèmes";  
   *La liste des Extensions installées est alors affichée.*   
  ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_16.png)  
@@ -75,7 +76,7 @@ Dans l'idéal (car plus rapide), ces noms de fichiers sont calculés par une for
 ![](IMG_Thunderbird%20-%20Publipostage%20mail%20avec%20Mail%20Merge_20.png)
 Remarques :  
 • depuis Thunderbird 102, **seul le nom du fichier doit être indiqué**, et non plus le chemin entier du fichier comme précédemment; de nombreux tutoriels en ligne ne sont plus à jour sur ce point.  
-• ces fichiers à joindre doivent avoir été créés précédemment, par exemple avec un publipostage. Voir notamment le tutoriel [Comment obtenir un document par destinataire lors d’un publipostage sous Word](/tutoriels/Publipostage macro Word - un fichier par destinataire.html).
+• ces fichiers à joindre doivent avoir été créés précédemment, par exemple avec un publipostage. Voir notamment le tutoriel [Comment obtenir un document par destinataire lors d’un publipostage sous Word](/suites-bureautiques/Publipostage macro Word - un fichier par destinataire.html).
 {: .pj}
 
 ### Préparer le modèle de mail 
