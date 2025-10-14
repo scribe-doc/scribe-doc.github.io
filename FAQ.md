@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Foire aux questions
+title: Foire aux questions (FAQ)
 last_modified_date: 2025-05-14
+nav_order: 2
 ---
 # Foire aux questions
 {: .no_toc style="margin-bottom:25px;"}
@@ -52,17 +53,30 @@ Voici deux logiciel libres qui permettent cela, parmi d'autres :
 
 ## Documents PDF
   
-### Comment puis-je réarranger les pages de fichiers PDF ?
-Les logiciels suivants permettent de modifier des fichiers PDF au niveau des **pages** (ajout, suppression, changement de l'ordre des pages, rotation des pages, ..). Ils ne permettent pas de modifier le **contenu** des pages.
-- PDF Arranger : logiciel libre assez intuitif et en français.  
-  [Site officiel de PDF Arranger](https://github.com/pdfarranger/pdfarranger){:target="_blank"} | [Télécharger](https://github.com/pdfarranger/pdfarranger/releases){:target="_blank"} | [Liste des fonctionnalités](https://github.com/pdfarranger/pdfarranger/wiki/User-Manual){:target="_blank"}
-- PDF Split and Merge Basic (PDFSam Basic)  
-  [Site officiel de PDFsam](https://pdfsam.org/fr/){:target="_blank"} | [Télécharger](https://pdfsam.org/fr/pdfsam-basic/){:target="_blank"} 
-
 ### Comment puis-je annoter ou compléter un document PDF ?
 Le logiciel Adobe Acrobat Reader, y compris dans sa version gratuite, propose plusieurs fonctionnalités pour annoter un document PDF : ajouter du texte, surligner/souligner/barrer du texte, ajouter une coche/croix, ajouter quelques formes de base, tracer à main levée, ajouter une signature..  
 Cela est souvent suffisant pour simplement remplir un document PDF, sans devoir l'imprimer puis le scanner.  
 ![](IMG_FAQ_PDF_1_Adobe_annotation.jpg){: width="300" }
+
+### Comment puis-je fusionner ou découper des fichiers PDF, réarranger des pages... ?
+Les logiciels suivants permettent de modifier des fichiers PDF au niveau des **pages** (ajout, suppression, changement de l'ordre des pages, rotation des pages, ..). Ils ne permettent pas de modifier le **contenu** des pages.
+- PDF Arranger : logiciel libre assez intuitif et en français.  
+  [Site officiel de PDF Arranger](https://github.com/pdfarranger/pdfarranger){:target="_blank"} | [Télécharger](https://github.com/pdfarranger/pdfarranger/releases){:target="_blank"} | [Liste des fonctionnalités](https://github.com/pdfarranger/pdfarranger/wiki/User-Manual){:target="_blank"}
+- PDF Split and Merge Basic (PDFSam Basic)  
+  [Site officiel de PDFsam](https://pdfsam.org/fr/){:target="_blank"} | [Télécharger](https://pdfsam.org/fr/pdfsam-basic/){:target="_blank"}  
+
+Tutoriels : 
+- [Découper des fichiers PDF avec le logiciel PDFsam](pdf/PDFsam%20-%20D%C3%A9couper%20des%20fichiers%20PDF.html)  
+- [Fusionner des fichiers PDF avec le logiciel PDFsam](/pdf/PDFsam%20-%20Fusionner%20des%20fichiers%20PDF.html)  
+
+### Comment puis-je créer des formulaires PDF ?
+Les formulaires PDF sont des documents PDF qui incluent des champs destinés à être renseignés par l'utilisateur. Plusieurs logiciels permettent de créer ce type de formulaire, dont :  
+- OnlyOffice / Escola - Voir l'article [Comment créer les formulaires à remplir (onlyoffice.com)](https://www.onlyoffice.com/blog/fr/2022/01/comment-creer-les-formulaires-a-remplir){:target="_blank"}  
+- LibreOffice Writer - De nombreuses ressources existent sur internet à ce sujet; voir par exemple :
+	- [Libre Office Les Formulaires PDF à compléter (edu.ge.ch)](https://edu.ge.ch/site/utilisation-logiciel/2020/09/24/libre-office-writer-la-sauvegarde-avec-les-polices-copie-3/){:target="_blank"}  
+	- [Créer des formulaires pdf avec LibreOffice (prim27.ac-normandie.fr)](https://prim27.ac-normandie.fr/creer-des-formulaires-pdf-avec-libreoffice){:target="_blank"}  
+	- [Création d'un Formulaire Writer (openoffice.org)](https://www.openoffice.org/fr/Documentation/Writer/Creation_de_Formulaires.pdf){:target="_blank"}  
+
 ### Comment puis-je modifier le contenu d'un fichier PDF ? (contenu des pages)
 **Le format PDF n'est pas fait pour être modifié** (tout au plus, les formulaires PDF permettent de remplir certains champs, et certains outils permettent d'ajouter des annotations). Idéalement, il faut partir du document source (fichier Writer/Word/Calc/Excel/..).  
 Cependant, des logiciels permettent d'effectuer des modifications dans une certaine mesure. Mais il y a souvent une **perte de mise en forme** partielle du document original.  
@@ -73,17 +87,9 @@ Les logiciels suivant peuvent être utilisés :
 	- "Fichier" > "Enregistrer une copie comme" > "DOCX" (pour éditer le document dans OnlyOffice) 
 - LibreOffice Draw : Ouvrir Draw, puis menu "Fichier" > "Ouvrir...", et sélectionner le fichier PDF à ouvrir. Enregistrement possible au format ODG (format natif de Draw) et export en PDF.
 - Gimp : Ouvrir Gimp, puis "Fichier" > "Ouvrir...", et sélectionner le fichier PDF à ouvrir. Chaque page sélectionnée est convertie en une image indépendante, qui peut ensuite être modifiée.
-  
-### Les fichiers PDF s'ouvrent dans Google Chrome au lieu de mon lecteur PDF habituel (Adobe Acrobat Reader, ..), comment puis-je corriger cela ?
-Voir le tutoriel [Problème : les fichiers PDF s’ouvrent avec Google Chrome](/pdf/problème-fichiers-pdf-ouvrent-dans-Chrome.html).  
 
-### Comment puis-je créer des formulaires PDF ?
-Les formulaires PDF sont des documents PDF qui incluent des champs destinés à être renseignés par l'utilisateur. Plusieurs logiciels permettent de créer ce type de formulaire, dont :  
-- OnlyOffice / Escola - Voir l'article [Comment créer les formulaires à remplir (onlyoffice.com)](https://www.onlyoffice.com/blog/fr/2022/01/comment-creer-les-formulaires-a-remplir){:target="_blank"}  
-- LibreOffice Writer - De nombreuses ressources existent sur internet à ce sujet; voir par exemple :
-	- [Libre Office Les Formulaires PDF à compléter (edu.ge.ch)](https://edu.ge.ch/site/utilisation-logiciel/2020/09/24/libre-office-writer-la-sauvegarde-avec-les-polices-copie-3/){:target="_blank"}  
-	- [Créer des formulaires pdf avec LibreOffice (prim27.ac-normandie.fr)](https://prim27.ac-normandie.fr/creer-des-formulaires-pdf-avec-libreoffice){:target="_blank"}  
-	- [Création d'un Formulaire Writer (openoffice.org)](https://www.openoffice.org/fr/Documentation/Writer/Creation_de_Formulaires.pdf){:target="_blank"}  
+### Les fichiers PDF s'ouvrent dans Google Chrome au lieu de mon lecteur PDF habituel (Adobe Acrobat Reader, ..), comment puis-je corriger cela ?
+Voir [Problème : les fichiers PDF s’ouvrent avec Google Chrome](/pdf/problème-fichiers-pdf-ouvrent-dans-Chrome.html).  
 
 ## Suites bureautiques, Gestion électronique de documents
 
