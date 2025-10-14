@@ -87,5 +87,7 @@ callouts:
     color: yellow
   cl-fct1:
     color: blue
+  cl-info:
+    color: purple
 
 
