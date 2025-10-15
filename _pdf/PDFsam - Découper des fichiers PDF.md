@@ -52,7 +52,7 @@ last_modified_date: 2025-10-14
 	  ![](IMG_PDFsam%20-%20Découper%20des%20fichiers%20PDF_5.png)  
 10. Eventuellement, modifier le préfixe des fichiers qui seront créés : dans la section "Paramètres de noms de fichiers", renseigner le préfixe souhaité.  
     ![](IMG_PDFsam%20-%20Découper%20des%20fichiers%20PDF_6.png)  
-  11. Enfin, cliquer sur "Exécuter" pour lancer la fusion. Après quelques instants, "terminé" est affiché.   
+  11. Enfin, cliquer sur "Exécuter" pour lancer la découpe. Après quelques instants, "terminé" est affiché.   
      ![](IMG_PDFsam%20-%20Fusionner%20des%20fichiers%20PDF_7%20executer%20fusion.png)  
 12. Eventuellement, cliquer sur le bouton "Ouvrir" pour ouvrir le dossier contenant les documents produits, et vérifier le résultat.  
     Remarque : le nombre en début de nom de fichier correspond au numéro de page de début dans le document initial.  
