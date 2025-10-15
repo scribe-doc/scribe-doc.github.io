@@ -82,12 +82,12 @@ callouts:
     title: Attention
     color: red
   pj:
-    color: blue
+    color: purple
   callout-yellow:
     color: yellow
   cl-fct1:
-    color: blue
-  cl-info:
     color: purple
+  cl-info:
+    color: blue
 
 

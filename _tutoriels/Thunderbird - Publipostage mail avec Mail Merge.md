@@ -23,7 +23,7 @@ Cette source de données va contenir les informations spécifiques à chaque mai
 Cette source de données est associée un modèle de mail, qui servira de base pour chaque e-mail envoyé.   
 Ce guide est basé sur Mail Merge version 10.5.0.
 
-Il est possible d'avoir des **pièces jointes personnalisées** (une pièce jointe différente pour chaque e-mail). Les étapes sur fond bleu, comme ceci, indiquent les étapes à exécuter dans ce cas de figure.  
+Il est possible d'avoir des **pièces jointes personnalisées** (une pièce jointe différente pour chaque e-mail). Les étapes sur fond violet, comme ceci, indiquent les étapes à exécuter dans ce cas de figure.  
 {: .pj}
 
 ## Installation de l'extension Mail Merge pour Thunderbird

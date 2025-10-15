@@ -19,7 +19,7 @@ last_modified_date: 2025-10-14
 	• après chaque page;  
 	• après chaque multiple de *n* (groupes du même nombre de pages, exemple découper le document en groupes de 2 pages)  
 	=> Passer directement à **l'étape 5**.  
-	{: .cl-info}
+	{: .cl-fct1}
 
 2. Ouvrir le fichier PDF dans le lecteur PDF de son choix (exemple : Adobe Acrobat, Okular, Firefox.. );  
 3. Noter les numéros des pages **après lesquelles découper**, séparés par des **virgules**.
